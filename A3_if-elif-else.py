@@ -1,7 +1,7 @@
 #taking user input
 num = int(input("Enter an integer number: "))
 
-#task1
+#handling task1
 print("\n____Task1____")
 if num>0: 
     print(f"{num} is positive.")
@@ -11,7 +11,7 @@ else:
     print(f"{num} is zero.")
 print()
 
-#task2
+#handling task2
 print("__Task2__")
 if num%2==0:
     print(f"{num} is even.")
@@ -19,7 +19,7 @@ else:
     print(f"{num} is odd.")
 print()
 
-#task3
+#handling task3
 print("__Task3__")
 if num>100 or num<0:
     print("Invalid value.")
